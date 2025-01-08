@@ -30,6 +30,7 @@ nav a {
   text-decoration: none;
   font-family: "Poppins", serif;
   margin: 0 15px;
+  width: auto;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -50,6 +51,7 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
+  width: auto;
   color: black;
   line-height: 1.6;
 }
@@ -123,7 +125,7 @@ p.gallery {
 }
 
 table {
-  width: 100%;
+  width: auto;
 }
 
 /*ABOUT: Our Programs Section*/
@@ -207,6 +209,7 @@ p.prototype {
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: auto;
 }
 
 .cards {
