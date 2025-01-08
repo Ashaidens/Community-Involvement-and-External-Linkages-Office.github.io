@@ -51,7 +51,7 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: auto;
   color: black;
   line-height: 1.6;
 }
@@ -59,7 +59,7 @@ body {
 /*The big CIELO logo in the main page*/
 img.bodylogo {  
   height: 40; 
-  width: 100%;
+  width: auto;
   margin-left: auto;
   margin-right:auto;
   display: block;
@@ -69,7 +69,7 @@ div.body_section {
   flex: 1 1 calc(33.333% - 1rem);
   background: #003782;
   margin:10px;
-  width: 100%;
+  width: auto;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1rem;
@@ -98,37 +98,37 @@ a.button {
 .img1 {
   display: inline;
   height: 200px; 
-  width: 100%;
+  width: auto;
 }
 
 .img2 {
   display: inline;
   height: 200px; 
-  width: 100%;
+  width: auto;
 }
 
 .img3 {
   display: inline;
   height: 200px; 
-  width: 100%;
+  width: auto;
 }
 
 .img4 {
   display: inline;
   height: 200px; 
-  width: 100%;
+  width: auto;
 }
 
 .img5 {
   display: inline;
   height: 200px; 
-  width: 100%;
+  width: auto;
 }
 
 .img6 {
   display: inline;
   height: 200px; 
-  width: 100%;
+  width: auto;
 }
 /*GALLERY: Texts*/
 p.gallery {
@@ -136,7 +136,7 @@ p.gallery {
 }
 
 table {
-  width: 100%;
+  width: auto;
 }
 
 /*ABOUT: Our Programs Section*/
@@ -148,7 +148,7 @@ table {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify;
-  widith: 100%;
+  widith: auto;
 }
 
 .taytunglogo {
@@ -221,7 +221,7 @@ div.card {
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: auto;
 }
 
 div.cards {
@@ -232,7 +232,7 @@ div.cards {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 4%;
-  width: 100%;
+  width: auto;
 }
 
 h1.head_text {
