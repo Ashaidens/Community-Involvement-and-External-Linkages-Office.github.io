@@ -30,7 +30,7 @@ nav a {
   text-decoration: none;
   font-family: "Poppins", serif;
   margin: 0 15px;
-  width: auto;
+  width: 100%;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -59,7 +59,7 @@ body {
 /*The big CIELO logo in the main page*/
 img.bodylogo {  
   height: 40; 
-  width: auto;
+  width: 100%;
   margin-left: auto;
   margin-right:auto;
   display: block;
@@ -98,37 +98,37 @@ a.button {
 .img1 {
   display: inline;
   height: 200px; 
-  width: auto;
+  width: 100%;
 }
 
 .img2 {
   display: inline;
   height: 200px; 
-  width: auto;
+  width: 100%;
 }
 
 .img3 {
   display: inline;
   height: 200px; 
-  width: auto;
+  width: 100%;
 }
 
 .img4 {
   display: inline;
   height: 200px; 
-  width: auto;
+  width: 100%;
 }
 
 .img5 {
   display: inline;
   height: 200px; 
-  width: auto;
+  width: 100%;
 }
 
 .img6 {
   display: inline;
   height: 200px; 
-  width: auto;
+  width: 100%;
 }
 /*GALLERY: Texts*/
 p.gallery {
@@ -136,7 +136,7 @@ p.gallery {
 }
 
 table {
-  width: auto;
+  width: 100%;
 }
 
 /*ABOUT: Our Programs Section*/
@@ -148,7 +148,7 @@ table {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify;
-  widith: auto;
+  widith: 100%;
 }
 
 .taytunglogo {
@@ -166,7 +166,7 @@ table {
   margin-right: auto;
 }
 
-.donatecard {
+div.donatecard {
   flex: 1 1 calc(33.333% - 1rem);
   background: #004aad;
   border: 1px solid #ddd;
@@ -178,14 +178,14 @@ table {
 /*DONATION: Text Styles*/
 h2.donate {
   font-family: "Poppins", serif;
-  color:white;
+  color: white;
   text-align: center;
 }
 
 p.donate {
   font-family: "Poppins", serif;
   padding: 1rem 0;
-  color:white;
+  color: white;
   text-align: center;
 }
 
@@ -221,7 +221,7 @@ div.card {
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: auto;
+  width: 100%;
 }
 
 div.cards {
@@ -232,7 +232,7 @@ div.cards {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 4%;
-  width: auto;
+  width: 100%;
 }
 
 h1.head_text {
