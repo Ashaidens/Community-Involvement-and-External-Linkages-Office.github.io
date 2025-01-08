@@ -30,7 +30,6 @@ nav a {
   text-decoration: none;
   font-family: "Poppins", serif;
   margin: 0 15px;
-  width: 100%;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -51,29 +50,17 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
-  width: auto;
   color: black;
   line-height: 1.6;
 }
 
 /*The big CIELO logo in the main page*/
-img.bodylogo {  
+.bodylogo {  
   height: 40; 
   width: auto;
   margin-left: auto;
   margin-right:auto;
   display: block;
-}
-
-div.body_section {
-  flex: 1 1 calc(33.333% - 1rem);
-  background: #003782;
-  margin:10px;
-  width: auto;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*HOME: What is CIELO?*/
@@ -136,7 +123,7 @@ p.gallery {
 }
 
 table {
-  width: auto;
+  width: 100%;
 }
 
 /*ABOUT: Our Programs Section*/
@@ -148,7 +135,6 @@ table {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify;
-  widith: auto;
 }
 
 .taytunglogo {
@@ -166,7 +152,7 @@ table {
   margin-right: auto;
 }
 
-div.donatecard {
+.donatecard {
   flex: 1 1 calc(33.333% - 1rem);
   background: #004aad;
   border: 1px solid #ddd;
@@ -178,14 +164,14 @@ div.donatecard {
 /*DONATION: Text Styles*/
 h2.donate {
   font-family: "Poppins", serif;
-  color: white;
+  color:white;
   text-align: center;
 }
 
 p.donate {
   font-family: "Poppins", serif;
   padding: 1rem 0;
-  color: white;
+  color:white;
   text-align: center;
 }
 
@@ -214,17 +200,16 @@ p.prototype {
 }
 
 /*Website Styles like cards, dividers, etc.*/
-div.card {
+.card {
   flex: 1 1 calc(33.333% - 1rem);
   background: #e7e3e3;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: auto;
 }
 
-div.cards {
+.cards {
   flex: 1 1 calc(33.333% - 1rem);
   background: #b5d9ff;
   border: 1px solid #ddd;
@@ -232,7 +217,16 @@ div.cards {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 4%;
-  width: auto;
+}
+
+.body_section {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #003782;
+  margin:10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1.head_text {
