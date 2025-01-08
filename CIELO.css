@@ -137,6 +137,7 @@ table {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify;
+  widith: auto;
 }
 
 .taytunglogo {
@@ -202,7 +203,7 @@ p.prototype {
 }
 
 /*Website Styles like cards, dividers, etc.*/
-.card {
+div.card {
   flex: 1 1 calc(33.333% - 1rem);
   background: #e7e3e3;
   border: 1px solid #ddd;
@@ -212,7 +213,7 @@ p.prototype {
   width: auto;
 }
 
-.cards {
+div.cards {
   flex: 1 1 calc(33.333% - 1rem);
   background: #b5d9ff;
   border: 1px solid #ddd;
