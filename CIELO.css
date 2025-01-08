@@ -51,18 +51,29 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
-  width: auto;
+  width: 100%;
   color: black;
   line-height: 1.6;
 }
 
 /*The big CIELO logo in the main page*/
-.bodylogo {  
+img.bodylogo {  
   height: 40; 
   width: auto;
   margin-left: auto;
   margin-right:auto;
   display: block;
+}
+
+div.body_section {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #003782;
+  margin:10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*HOME: What is CIELO?*/
@@ -222,17 +233,6 @@ div.cards {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 4%;
   width: auto;
-}
-
-.body_section {
-  flex: 1 1 calc(33.333% - 1rem);
-  background: #003782;
-  margin:10px;
-  width: auto;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1.head_text {
