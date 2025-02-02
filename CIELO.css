@@ -1,43 +1,43 @@
 /*HEADER SECTION*/
+/*Legend:*/
+/* ||Explanation on how this works*/
+
 header {
-  background: #004aad;
+  background: #0457c6;
   color: black;
   padding: 1rem 0;
   text-align: left;
   line-height: 30px;
 }
-
 header h1 {
   margin: 0;
   padding: 1rem 0;
   font-size: 2.5rem;
+  color: white;
 }
-
 .web_title {
   display: inline; 
   margin-left: 10px;
 }
-
 nav {
-  background: #004aad;
+  background: #0457c6;
   font-family: "Poppins", serif;
   text-align: center;
   padding: 0.5rem 0;
 }
-
 nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Poppins", serif;
   margin: 0 15px;
   font-size: 1.2rem;
   font-weight: bold;
 }
-
 nav a:hover {
   text-decoration: solid;
   color: white;
 }
+
 /*HEADER: Logo Image*/
 .smol_cielo {
   height: 70px;
@@ -46,7 +46,6 @@ nav a:hover {
   padding: 5px;
   vertical-align: middle;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -55,12 +54,21 @@ body {
 }
 
 /*The big CIELO logo in the main page*/
-img.bodylogo {  
+.bodylogo {  
   height: 40; 
-  width: auto;
   margin-left: auto;
   margin-right:auto;
   display: block;
+}
+.body_section {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #003782;
+  background-image: linear-gradient(to right, #003782, #012a62);
+  margin:10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*HOME: What is CIELO?*/
@@ -74,69 +82,54 @@ button {
   width: 155px;
   font-weight: bold;
 }
+
 /*HOME: Button text*/
 a.button {
   color: white;
-  width: auto;
   text-decoration: solid;
 }
 
-/*GALLERY: Images*/
-.img1 {
-  display: inline;
-  height: 200px; 
-  width: auto;
+/*GALLERY: Divs*/
+.picsalign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.img2 {
-  display: inline;
-  height: 200px; 
-  width: auto;
+.picsalign img {
+	width: 500px;
+	height: 300px;
+  margin: 4px 7px 7px 0px;
+	border: 2px solid #003782;
+	border-radius: 13px;
+	box-shadow: 4px 7px 7px 0px #00000042;
+	cursor: pointer;
+	margin: 10px
 }
 
-.img3 {
-  display: inline;
-  height: 200px; 
-  width: auto;
+/* ||Slightly scales the image when picture is hovered over with mouse*/
+.picsalign img:hover {
+	transform: scale(1.03);
 }
 
-.img4 {
-  display: inline;
-  height: 200px; 
-  width: auto;
-}
 
-.img5 {
-  display: inline;
-  height: 200px; 
-  width: auto;
-}
 
-.img6 {
-  display: inline;
-  height: 200px; 
-  width: auto;
-}
 /*GALLERY: Texts*/
 p.gallery {
   text-align: justify;
 }
 
-table {
-  width: 100%;
-}
-
 /*ABOUT: Our Programs Section*/
 .page {
   flex: 1 1 calc(33.333% - 1rem);
-  background-color: #004aad;
+  background-color: #0457c6;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify;
 }
-
 .taytunglogo {
   height: 50px; 
   width: 92;
@@ -146,15 +139,14 @@ table {
 /*ADVOCACIES: Section*/
 .center {
   height: 400px;
-  width: 75%;
+  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .donatecard {
   flex: 1 1 calc(33.333% - 1rem);
-  background: #004aad;
+  background: #0457c6;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1rem;
@@ -167,7 +159,6 @@ h2.donate {
   color:white;
   text-align: center;
 }
-
 p.donate {
   font-family: "Poppins", serif;
   padding: 1rem 0;
@@ -177,26 +168,31 @@ p.donate {
 
 /*FOOTER*/
 footer {
-  background: #004aad;
+  background: #0457c6;
   color: black;
   text-align: left;
   padding: 1rem 0;
   margin-top: 2rem;
 }
-
 footer p {
  margin-left: 10px;
  padding: 1rem 0;
 }
+
 /*FOOTER: Text*/
 h2.contact {
   margin: 5px 10px 5px 20px;
+  color: white;
+}
+h2.contact_info {
+  color: black;
 }
 p.contact {
   margin: 5px 10px 5px 20px;
 }
 p.prototype {
   margin: 5px 10px 5px 20px;
+  color: white;
 }
 
 /*Website Styles like cards, dividers, etc.*/
@@ -208,8 +204,7 @@ p.prototype {
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.cards {
+.inner_card {
   flex: 1 1 calc(33.333% - 1rem);
   background: #b5d9ff;
   border: 1px solid #ddd;
@@ -218,17 +213,6 @@ p.prototype {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 4%;
 }
-
-.body_section {
-  flex: 1 1 calc(33.333% - 1rem);
-  background: #003782;
-  margin:10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 h1.head_text {
   font-family: "Poppins", serif;
   padding: 1rem 0;
@@ -243,7 +227,6 @@ h1 {
   border: 10px;
   margin: 10px;
 }
-
 h2 {
   font-family: "Poppins", serif;
   font-size: 22px;
@@ -251,13 +234,19 @@ h2 {
   margin: 10px;
   margin-left: 20px;
 }
-
+h2.head_text {
+  font-family: "Poppins", serif;
+  font-size: 22px;
+  padding: 1rem 0;
+  margin: 10px;
+  margin-left: 20px;
+  color: white;
+}
 h3 {
   font-family: "Poppins", serif;
   padding: 1rem 0;
   margin: 10px;
 }
-
 p {
   font-family: "Poppins", serif;
   padding: 0.5rem 0;
