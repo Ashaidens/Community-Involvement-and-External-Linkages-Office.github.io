@@ -64,7 +64,7 @@
     margin-left: auto;
     margin-right:auto;
     display: block;
-    width: 100%;
+    width: 300px;
   }
   .body_section {
     flex: 1 1 calc(33.333% - 1rem);
