@@ -94,7 +94,6 @@
     background-color: #cb5d2e;
   }
    
-  
   /*HOME: Button text*/
   a.button {
     color: white;
@@ -114,7 +113,6 @@
     max-width: 100%; 
     height: auto; 
   }
-  
   
   /* ||Slightly scales the image when picture is hovered over with mouse*/
   .picsalign img:hover {
@@ -263,26 +261,26 @@
 
 /*======================================== SMALL SCREENS ========================================*/
 @media screen and (max-width: 500px) {
-  /* Center and adjust header */
+  /*HEADER */
   header {
-    text-align: center;
+    text-align: left;
     padding: 0.5rem;
   }
 
   .web_title {
     font-size: 1.5rem; /* Smaller for compact screens */
     margin: 5px auto;
+    align: left;
   }
 
-  /* Adjust logo size */
   .smol_cielo {
     height: 45px;
     width: 45px;
     margin: 5px auto;
-    display: block;
+    display: inline;
+    align: left;
   }
 
-  /* Stack navigation links and adjust spacing */
   nav {
     display: flex;
     flex-direction: column;
@@ -292,18 +290,40 @@
 
   nav a {
     display: block;
-    margin: 6px 0; /* Reduce space between links */
-    font-size: 0.9rem; /* Make smaller */
+    margin: 6px 0; 
+    font-size: 0.9rem; 
   }
 
-  /* Resize main logo */
   .bodylogo {
-    height: 180px; /* Reduce size */
-    width: 100%;
+    height: 180px; 
+    width: 85px;
     margin: 8px auto;
   }
 
-  /* Ensure sections are full width and stacked */
+ /*WHAT IS CIELO?*/
+  button {
+    width: 100%;
+    max-width: 230px; 
+    font-size: 16px; 
+    padding: 8px;
+    margin: 8px auto;
+    display: block;
+  }
+
+/*GALLERY AND OUR PROGRAMS*/
+  .picsalign img {
+    width: 95%; 
+    max-width: 280px; 
+    height: auto;
+  }
+
+  /*FOOTER */
+  footer {
+    text-align: left;
+    padding: 0.8rem;
+  }
+
+/*Website Divisions*/
   .body_section, .page, .card, .inner_card {
     flex: 1 1 100%;
     width: 100%;
@@ -311,46 +331,22 @@
     padding: 0.8rem;
   }
 
-  /* Scale images down to fit smaller screens */
-  .picsalign img {
-    width: 95%; /* Fill most of the width */
-    max-width: 280px; /* Limit maximum */
-    height: auto;
-  }
-
-  /* Make buttons bigger for easier tapping */
-  button {
-    width: 100%;
-    max-width: 230px; /* Reduce slightly */
-    font-size: 16px; /* Adjust text size */
-    padding: 8px;
-    margin: 8px auto;
-    display: block;
-  }
-
-  /* Center and adjust footer */
-  footer {
-    text-align: center;
-    padding: 0.8rem;
-  }
-
-  /* Reduce heading font sizes */
+/*WEBSITE: Text Styles in General*/
   h1 {
     font-size: 1.3rem; 
-    text-align: center;
+    text-align: left;
   }
 
   h2 {
     font-size: 1.1rem; 
-    text-align: center;
+    text-align: left;
   }
 
   h3 {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
   }
 
-  /* Adjust paragraph text for readability */
   p {
     font-size: 0.95rem;
     text-align: justify;
