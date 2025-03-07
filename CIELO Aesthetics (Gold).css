@@ -27,8 +27,7 @@
   }
   
   .header {  
-    overflow: hidden;
-    position: fixed; /*|| OG sticky isn't supported on GitHub*/
+    position: sticky; 
     top: 0;
     z-index: 100 /*||Ensures header stays above the content*/
     padding: 15px 10px;
