@@ -1,7 +1,51 @@
+/*
+    Legend:
+    || Explanation on how this works
+    !!! Property below needs to be adjusted/refined !!!
+
+    Code References:
+    Inline nav and header logo: https://www.youtube.com/watch?v=_qTG88IuTIc
+
+*/
+/*===========================*/
+
+
+/*===== HEADER SECTION =====*/
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
   
+  html {
+    font-family: "Poppins", serif;
+  }
+
+  body { 
+    margin: 0;
+  }
+  
+  .header {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    padding: 20px 10px;
+    background-color: #0457c6;
+    box-shadow: 4px 4px 4px 4px #00000042 inset;
+  }
+  
+  .header a {
+    float: left;
+    color: #f2f8fc;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
