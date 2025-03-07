@@ -27,10 +27,10 @@
 
 <!-- BODY -->
  <!-- <div class="display"> -->
-    <div class="body_section">
+    <div id="about" class="body_section">
         <img src="CIELO.png" class="bodylogo" alt="Huge body logo">
     </div>
-        <div id="about" class="section">
+        <div class="section">
             <div class="card">
                 <h2>What is CIELO?</h2>
                 <p>CIELO is an organization dedicated to aiding and assisting the community. We are an organization under Bacolod Tay Tung High School, headed by Sir Francis Espera. CIELO (Community Involvement and External Linkages Office) focuses on connecting students with the broader community through outreach programs and partnerships with various organizations, schools, and government agencies. It creates opportunities for students to engage in real-world experiences, such as environmental initiatives and community immersions, which broaden their perspectives and promote social awareness.</p>
@@ -41,9 +41,9 @@
 <!--</div>-->
 
 <!--GALLERY-->
- <div class="display">
+ <div id="gallery"class="display">
         <h1 class="head_text">About CIELO</h1>
-        <div id="gallery" class="page">
+        <div class="page">
             <h2 class="head_text">Gallery</h2>
             <div class="inner_card">
                     <div class="card">
@@ -60,9 +60,9 @@
  </div>
 
 <!--ABOUT/OUR PROGRAMS-->
- <div class="display">
+ <div id="programs" class="display">
         <h1 class="head_text">Our Programs</h2>   
-            <div id="programs" class="page">
+            <div class="page">
                 <div class="inner_card">
                     <div class="card">
                         <h3>Program 1: Tree Planting</h3>
@@ -79,8 +79,8 @@
 
     <hr>
 <!--ADVOCACIES NAV-->
- <div class="display">
-        <div id="adv" class="head_text">
+ <div id="adv" class="display">
+        <div class="head_text">
             <div class="advcard">
                 <h2 class="adv">ADVOCACIES</h2>
                 <p class="adv">By supporting CIELO, donors contribute to creating opportunities for students to engage in outreach initiatives <br> such as environmental projects, community development, and social exposure activities.</p>
@@ -96,7 +96,7 @@
 <!-- JavaScript-->
 <script>
     function myFunction() {
-      var x = document.getElementById('display');
+      var x = document.getElementById('programs, gallery, adv');
       if (x.style.visibility === 'hidden') {
         x.style.visibility = 'visible';
       } else {
@@ -120,41 +120,8 @@
 </div>
 <div class="footer_deco">
     <p class="prototype">&copy; Gamma Prototype by <str>TriPRo</str></p>
-    <p class="updated"> Last Updated: Fourth Grading- March 2nd, 2025</p>
+    <p class="updated"> Last Updated: Fourth Grading- March 7th, 2025</p>
 </div>
 </body>
 </html>
 
-
-
-<!-- OLD CODES
-    === HEADER ===
-    <header>
-    <img src="CIELO.png" class="smol_cielo" alt="CIELO Logo">
-    <h1 class= "web_title">CIELO</h1>
-        <nav>
-            <a href="FullCIELO.html">ABOUT</a>
-            <a href="#gallery">GALLERY</a>
-            <a href="#donations">ADVOCACIES</a>
-        </nav>
-    </header> 
-  =============================================
-  <button onclick="myFunction()" id="learn_more" >
-     <a href="#program" class="button">Learn More</a>
-  </button>
-  =============================================
-    === FOOTER ===
-  <footer>
-        <h2 class="contact">FOLLOW US ON</h2>
-             <div class="card">
-                 <h2 class="contact_info">CONTACT INFO</h2>
-                 <p>PHONE NUMBER:</p>
-                 <p class="contact">E-MAIL ADDRESS: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=jrjtXPWwVFLbQTmLwfsRMlDMlRStpPXSrCtSrDJHJKnKrXtZWqfChLXwktWtqsdFJBntJJnH">cielo@btths.edu.ph</a></p>
-                 <img src="CIELO.png" class="smol_cielo" alt="CIELO Logo">
-                 <img src="tay_tung_logo.png" class="taytunglogo">
-            </div>
-           
-        <p class="prototype">&copy; Gamma Prototype</p>
-    </footer>
-  
-  -->
