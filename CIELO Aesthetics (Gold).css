@@ -27,6 +27,8 @@
   
   .header {
     overflow: hidden;
+    position: sticky;
+    top: 0;
     padding: 20px 10px;
     background-color: #0457c6;
     box-shadow: 4px 4px 4px 4px #00000042 inset;
