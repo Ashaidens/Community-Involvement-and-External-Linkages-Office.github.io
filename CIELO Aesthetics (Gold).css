@@ -1,0 +1,470 @@
+/*
+    Legend:
+    || Explanation on how this works
+    !!! Property below needs to be adjusted/refined !!!
+
+===========================*/
+
+
+/*===== HEADER SECTION =====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+  html {
+    font-family: "Poppins", serif;
+  }
+  
+  .header {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    padding: 20px 10px;
+    background-color: #0457c6;
+    box-shadow: 4px 7px 7px 4px #00000042 inset;
+    box-shadow: 4px 7px 7px 0px #00000042;
+  }
+  
+  .header a {
+    float: left;
+    color: #f2f8fc;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #003782;
+  }
+  
+  .header a.active {
+  background-color: #e66731;
+  color: white;
+  }
+
+  .header-right {
+    float: right;
+  }
+  
+  a.web_title {
+    text-align: left;
+    font-size: 22px;
+  }
+
+  .smol_cielo {
+  float: left;
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  line-height: 1.6;
+}
+
+/*===== The big CIELO logo in the main page =====*/
+.bodylogo {  
+  height: 450px; 
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  opacity: 50%;
+}
+.body_section {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #003782;
+  background-image: linear-gradient(to right, #003782, #012a62);
+  margin:10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*===== HOME: What is CIELO? =====*/
+ /*shows more about CIELO once clicked*/
+ .learnmore {
+  background-color: #e66731;
+  border-radius: 5px;
+  font-size:23px;
+  color: white;
+  border:#e66731;
+  height: 40px;
+  width: 155px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.learnmore:hover {
+  background-color: #cb5d2e;
+	transform: scale(1.03);
+  text-decoration: none;
+}
+
+/*===== GALLERY: Texts =====*/
+p.gallery {
+  text-align: justify;
+}
+
+.captions {
+  background: #e7e3e3;
+  border-radius: 13px;
+}
+
+/*===== GALLERY: Pic Divs =====*/
+/*Div for each picture*/
+.picslot {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  background: #e7e3e3;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+}
+
+/*|| How all images will align on devices*/
+.picsalign { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.picsalign img {
+	width: 500px;
+	height: 300px;
+  margin: 4px 7px 7px 7px;
+	border: 2px solid #003782;
+	border-radius: 13px;
+	box-shadow: 4px 7px 7px 0px #00000042;
+	cursor: pointer;
+	margin: 10px
+}
+
+/* ||Slightly scales the image when picture is hovered over with mouse*/
+.picsalign img:hover {
+	transform: scale(1.03);
+}
+
+/*===== ABOUT: Our Programs Section =====*/
+.programs {
+  background-color: white; 
+  border-radius: 13px;
+  padding: 8px 0px 8px 0px;
+}
+
+
+/*===== ADVOCACIES: Section =====*/
+.center {
+  height: 400px;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advcard {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #0457c6;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*===== ADVOCACIES: Images =====*/
+.adv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.adv img {
+	width: 400px;
+	height: 490px;
+  margin: 4px 7px 7px 0px;
+	border: 5px solid white;
+	border-radius: 13px;
+	box-shadow: 4px 7px 7px 0px #00000042;
+	cursor: pointer;
+	margin: 10px
+}
+
+/* ||Slightly scales the image when picture is hovered over with mouse*/
+.adv img:hover {
+	transform: scale(1.03);
+}
+
+/*===== ADVOCACIES: Text Styles =====*/
+h2.adv {
+  font-family: "Poppins", serif;
+  color:#f2f8fc;
+  text-align: center;
+}
+p.adv {
+  font-family: "Poppins", serif;
+  text-align: justify;
+  padding: 1rem 0;
+  color:white;
+  text-align: center;
+}
+
+/*===== ADVOCACIES: Partnerships =====*/
+.partnership {
+  text-align: justify;
+  margin: 5px 160px 50px 160px;
+  border: 12px;
+  border-color: #c2a37d;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 4%;
+}
+
+h1.partner {
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 3px;
+}
+
+h3.partner {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+hr {
+  border: none;
+  height: 30px;
+  width: 100%;
+  background-color: #ff8855;
+}
+
+
+/*===== FOOTER DIVISIONS =====*/
+.footer_deco {
+  display: flex;
+  justify-content: space-around;
+  background: #0457c6;
+  color: #f2f8fc;
+  text-align: left;
+  padding: 5px 2px;
+}
+.main_footer {
+  background: white;
+  margin: 5px 10px;
+  padding: 8px 3px;
+}
+
+/*===== FOOTER: Text =====*/
+footer p {
+  margin-left: 10px;
+  padding: 1rem 0;
+ }
+h2.contact_info {
+  color:#f2f8fc;
+  margin: auto;
+  margin-left: 15px;
+}
+p.contact {
+  margin: 5px 10px 5px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+p.contact:hover {
+  text-decoration: none;
+}
+p.prototype {
+  margin: auto;
+  margin-left: 15px;
+  color: #f2f8fc;
+}
+p.updated {
+  float: right;
+}
+a.TriPRo {
+  text-decoration: none;
+  color: white;
+}
+a.TriPRo:hover {
+  background-color: #012a62;
+  border-radius: 4px;
+}
+/*===== FOOTER: Images =====*/
+/* !!! */
+.fb_logo {
+  float: right;
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  border-radius: 13px;
+  padding: 1px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+	cursor: pointer;
+}
+.fblogo img:hover {
+	transform: scale(1.03);
+}
+.taytunglogo {
+  height: 70px; 
+  width: 70px; 
+  margin: 10px; 
+  padding: 5px; 
+  vertical-align: middle;
+}
+
+/*===== CREDITS: Divisions =====*/
+.triproPage {
+  background-color: white; 
+  display: flex;
+  padding: 15px; display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  align-content: center;
+}
+.creditsslot {
+  background-color: #e7e3e3;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  width: 390px;
+  margin: 15px 120px 15px 90px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+  border-radius: 13px;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.credits {
+  border-radius: 75px;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.credits img{
+  float: left;
+  margin: 10px;
+  vertical-align: middle;
+}
+/*===== CREDITS: Text =====*/
+h2.credits {
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 5px;
+}
+
+h3.credits {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: left;
+  float: right;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+/*===== WEBSITE: Divisions =====*/
+.page {
+  flex: 1 1 calc(33.333% - 1rem);
+  background-color: #0457c6;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #e7e3e3;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.inner_card {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #b5d9ff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 4%;
+}
+h1.head_text {
+  font-family: "Poppins", serif;
+  padding: 1rem 0;
+  margin: 5px 10px 5px 20px;
+  font-weight: bold;
+}
+
+/*===== WEBSITE: Text Styles in General =====*/
+h1 {
+  font-family: "Poppins", serif;
+  padding: 1rem 0;
+  border: 10px;
+  margin: 10px;
+}
+h2 {
+  font-family: "Poppins", serif;
+  font-size: 22px;
+  padding: 1rem 0;
+  margin: 10px;
+  margin-left: 20px;
+}
+h2.head_text {
+  font-family: "Poppins", serif;
+  font-size: 22px;
+  padding: 1rem 0;
+  margin: 10px;
+  margin-left: 20px;
+  color: #f2f8fc;
+}
+h3 {
+  font-family: "Poppins", serif;
+  font-size: 25px;
+  padding: 1rem 0;
+  margin: 10px;
+}
+p {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  padding: 0.5rem 0;
+  margin: 10px;
+}
+
+
+
+

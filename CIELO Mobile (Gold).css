@@ -1,0 +1,490 @@
+/*
+FOR MOBILE DEVICES
+!!! TO BE UPDATED FOR GOLD WEBSITE, this is the Gamma one
+*/
+
+
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header a {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .smol_cielo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header a.logo {
+    font-size: 30px;
+  }
+  
+  .header-right {
+    float: none;
+    text-align: center;
+  }
+
+
+  .web_title {
+     display: inline; 
+     margin-left: 10px;
+  }
+
+  
+  /*HEADER: Logo Image*/
+  .smol_cielo {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    padding: 5px;
+    vertical-align: middle;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  /*The big CIELO logo in the main page*/
+  .bodylogo {  
+    height: 450px; 
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+  }
+  .body_section {
+    flex: 1 1 calc(33.333% - 1rem);
+    background: #003782;
+    background-image: linear-gradient(to right, #003782, #012a62);
+    margin:10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /*HOME: What is CIELO?*/
+   /*The Button that shows more about CIELO once clicked*/
+   button {
+    background-color: #e66731;
+    border-radius: 5px;
+    font-size:23px;
+    color: white;
+    border:#e66731;
+    height: 40px;
+    width: 155px;
+    font-weight: bold;
+  }
+  
+  .active, .button:hover {
+    background-color: #cb5d2e;
+  }
+  
+  /*HOME: Button text*/
+  a.button {
+    color: white;
+    text-decoration: solid;
+  }
+  
+  /*GALLERY: Divs*/
+  .picsalign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+  
+  .picsalign img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  /* ||Slightly scales the image when picture is hovered over with mouse*/
+  .picsalign img:hover {
+    transform: scale(1.03);
+  }
+  
+  /*GALLERY: Texts*/
+  p.gallery {
+    text-align: justify;
+  }
+  
+  /*ABOUT: Our Programs Section*/
+  .taytunglogo {
+    height: 50px; 
+    width: 92;
+    vertical-align: middle;
+  }
+  
+  /*ADVOCACIES: Section*/
+  .center {
+    height: 400px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .donatecard {
+    flex: 1 1 calc(33.333% - 1rem);
+    background: #0457c6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /*DONATION: Text Styles*/
+  h2.donate {
+    font-family: "Poppins", serif;
+    color:white;
+    text-align: center;
+  }
+  p.donate {
+    font-family: "Poppins", serif;
+    padding: 1rem 0;
+    color:white;
+    text-align: center;
+  }
+  
+  /*FOOTER*/
+  footer {
+    background: #0457c6;
+    text-align: left;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  footer p {
+   margin-left: 10px;
+   padding: 1rem 0;
+  }
+  
+  /*FOOTER: Text*/
+  h2.contact {
+    margin: 5px 10px 5px 20px;
+    color: white;
+  }
+  p.contact {
+    margin: 5px 10px 5px 20px;
+  }
+  p.prototype {
+    margin: 5px 10px 5px 20px;
+    color: white;
+  }
+  
+  /*Website Divisions*/
+  .page {
+    flex: 1 1 calc(33.333% - 1rem);
+    background-color: #0457c6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+  }
+  
+  .card {
+    flex: 1 1 calc(33.333% - 1rem);
+    background: #e7e3e3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .inner_card {
+    flex: 1 1 calc(33.333% - 1rem);
+    background: #b5d9ff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 4%;
+  }
+  h1.head_text {
+    font-family: "Poppins", serif;
+    padding: 1rem 0;
+    margin: 5px 10px 5px 20px;
+    font-weight: bold;
+  }
+  
+  /*WEBSITE: Text Styles in General*/
+  h1 {
+    font-family: "Poppins", serif;
+    padding: 1rem 0;
+    border: 10px;
+    margin: 10px;
+  }
+  h2 {
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    padding: 1rem 0;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  h2.head_text {
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    padding: 1rem 0;
+    margin: 10px;
+    margin-left: 20px;
+    color: white;
+  }
+  h3 {
+    font-family: "Poppins", serif;
+    padding: 1rem 0;
+    margin: 10px;
+  }
+  p {
+    font-family: "Poppins", serif;
+    padding: 0.5rem 0;
+    margin: 10px;
+  }
+}
+
+/*======================================== MAX 500PX ========================================*/
+@media screen and (max-width: 500px) {
+  header {
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  a.web_title {
+    font-size: 22px; 
+    margin: 5px auto;
+    float: left;
+  }
+
+  .smol_cielo {
+    height: 65px;
+    width: 65px;
+    margin: 5px 10px;
+    display: block;
+  }
+
+  .header a {
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 20px 10px;
+    text-align: left;
+    }
+
+  .header-right {
+    float: none;
+  }
+
+  .bodylogo {
+    height: 250px; 
+    width: 80%;
+    margin: 8px auto;
+  }
+
+  .body_section, .page, .card, .inner_card {
+    flex: 1 1 100%;
+    width: 100%;
+    margin: 5px 0;
+    padding: 0.8rem;
+  }
+
+
+  .picsalign img {
+    width: 95%; 
+    max-width: 280px; 
+    height: auto;
+  }
+
+  button {
+    width: 100%;
+    max-width: 230px; 
+    font-size: 16px; 
+    padding: 8px;
+    margin: 8px auto;
+    display: block;
+  }
+
+  footer {
+    padding: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.3rem; 
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.1rem; 
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+}
+
+/*======================================== MAX 400PX ========================================*/
+@media screen and (max-width: 400px) {
+  header {
+    text-align: center;
+    padding: 0.5rem;
+    overflow: hidden;
+  }
+
+  a.web_title {
+    font-size: 22px; 
+    align-items: left;
+    margin: 5px auto;
+    display: flex;
+    float: left;
+  }
+
+  .smol_cielo {
+    float: left;
+    height: 65px;
+    width: 65px;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header a {
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 20px 10px;
+    text-align: left;
+    }
+
+  .header-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+  }
+
+  .bodylogo {
+    height: 250px; 
+    width: 80%;
+    margin: 8px auto;
+  }
+
+  .body_section, .page, .card, .inner_card {
+    flex: 1 1 100%;
+    width: 100%;
+    margin: 5px 0;
+    padding: 0.8rem;
+  }
+
+  .picsalign img {
+    width: 95%; 
+    max-width: 280px; 
+    height: auto;
+  }
+
+  button {
+    width: 100%;
+    max-width: 230px; 
+    font-size: 16px; 
+    padding: 8px;
+    margin: 8px auto;
+    display: block;
+  }
+
+  footer {
+    padding: 0.8rem;
+  }
+
+  
+/*===== FOOTER DIVISIONS =====*/
+.footer_deco {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+.main_footer {
+  margin: 5px;
+  padding: 10px 5px;
+}
+
+/*===== FOOTER: Text =====*/
+footer p {
+  font-size: 16px;
+ }
+h2.contact_info {
+  margin-left: 0;
+  font-size: 18px;
+}
+p.contact {
+  font-size: 14px; 
+    margin: 5px 10px;
+  }
+
+  p.prototype {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  p.updated {
+    float: none; 
+    margin-top: 10px;
+  }
+
+  a.TriPRo {
+    font-size: 15px; 
+    padding: 8px 12px;
+    text-align: left;
+  }
+
+  a.TriPRo:hover {
+    text-align: left;
+    background-color: #012a62;
+    border-radius: 4px;
+  }
+
+
+  h1 {
+    font-size: 1.3rem; 
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.1rem; 
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+}
+
+
