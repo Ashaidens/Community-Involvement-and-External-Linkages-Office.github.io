@@ -19,7 +19,7 @@
   
   .header {
     overflow: hidden;
-    position: sticky;
+    position: fixed;
     top: 0;
     padding: 20px 10px;
     background-color: #0457c6;
