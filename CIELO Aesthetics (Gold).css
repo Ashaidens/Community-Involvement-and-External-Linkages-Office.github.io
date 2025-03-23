@@ -17,6 +17,7 @@
     font-family: "Poppins", serif;
   }
   
+/*!!! HEADER KEEPS SHIFTING TO THE LEFT< WHAT THE HEEL BRAH*/
   .header {
     overflow: hidden;
     position: fixed;
