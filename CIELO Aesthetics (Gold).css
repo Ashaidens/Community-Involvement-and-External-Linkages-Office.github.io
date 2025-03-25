@@ -20,7 +20,7 @@
 /*!!! HEADER KEEPS SHIFTING TO THE LEFT< WHAT THE HEEL BRAH*/
   .header {
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     padding: 20px 10px;
